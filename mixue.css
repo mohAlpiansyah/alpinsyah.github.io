@@ -1,0 +1,264 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    margin:10px;
+}
+.row{
+    background-color: rgb(255, 5, 5);
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    min-width:100%;
+}
+.logo{
+    padding-left:15px;
+}
+.navbar{
+    font-size:17px;
+    display:flex;
+    padding:20px;
+    cursor:pointer;
+}
+.navbar .home{
+    padding:10px;
+}
+.navbar .about{
+    padding:10px;
+}
+.navbar .menu{
+    padding:10px;
+}
+.navbar .outlet{
+    padding:10px;
+}
+.navbar .blog{
+    padding:10px;
+}
+.navbar .contact{
+    padding:10px;
+}
+
+.row-harga{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:20px;
+    background-color: rgb(255, 5, 5);
+    flex-direction: column;
+}
+.contact-us{
+    font-size:20px;
+}
+.row-gambar{
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+}
+.gambar-mixue{
+    background-color: rgb(255, 5, 5);
+    width:350px;
+    text-align: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:240px;
+}
+.gambar-mixuee{
+    background-color: rgb(255, 5, 5);
+    width:250px;
+    height:300px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.row-tentang-mixue{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size:19px;
+    margin:10px;
+}
+.sejarah{
+    padding:10px;
+    background-color: rgb(255, 5, 5);
+    border-radius:20px;
+    text-align: center;
+    width:100px;
+}
+.Sertifikat{
+    padding:15px;
+    background-color: rgb(255, 5, 5);
+    width:130px;
+    margin:5px;
+    height:30px;
+    border-radius:25px;
+}
+.Sertifikat p{
+    text-align: center;
+    margin:auto;
+}
+.harga{
+    padding:15px;
+    background-color: rgb(255, 5, 5);
+    border-radius:25px;
+    height:30px;
+}
+.harga p{
+    text-align: center;
+    margin:auto;
+}
+.daftar{
+    padding:10px;
+    margin:5px;
+    background-color: rgb(255, 5, 5);
+    border-radius:25px;
+    height:30px;
+}
+.daftar p{
+    margin:0;
+}
+.menu-mixue{
+    padding:10px;
+    margin:5px;
+    background-color: rgb(255, 5, 5);
+    border-radius:25px;
+    height:30px;  
+}
+.menu-mixue p{
+    margin:auto;
+}
+.outlet-menu{
+    padding:10px;
+    margin:5px;
+    background-color: rgb(255, 5, 5);
+    border-radius:25px;
+    height:30px;
+}
+.outlet-menu p{
+    margin:auto;
+}
+
+.row-sejarah-tentang{
+    border:1px solid rgb(255, 5, 5);
+    width:700px;
+    height:400px;
+    text-align: center;
+    margin: auto;
+    margin-bottom:20px;
+    border-radius:25px;
+}
+.row-pemasaran-tentang{
+    border:1px solid rgb(255, 5, 5);
+    width:700px;
+    height:400px;
+    text-align: center;
+    margin:auto;
+    margin-bottom:20px;
+    border-radius:25px;
+}
+.row-arti-tentang{
+    border:1px solid rgb(255, 5, 5);
+    width:700px;
+    height:400px;
+    text-align: center;
+    margin:auto;
+    margin-bottom:20px;
+    border-radius:25px;
+}
+.row-pengucapan-tentang{
+    border:1px solid rgb(255, 5, 5);
+    width:700px;
+    height:400px;
+    text-align: center;
+    margin:auto;
+    margin-bottom:20px;
+    border-radius:25px;
+}
+.row-hargamix-tentang{
+    border:1px solid rgb(255, 5, 5);
+    width:700px;
+    height:400px;
+    text-align: center;
+    margin:auto;
+    margin-bottom:20px;
+    border-radius:25px;
+}
+.row-daftarr-tentang{
+    border:1px solid rgb(255, 5, 5);
+    width:700px;
+    height:400px;
+    text-align: center;
+    margin:auto;
+    margin-bottom:20px;
+    border-radius:25px;
+}
+.row-halall-tentang{
+    border:1px solid rgb(255, 5, 5);
+    width:700px;
+    height:400px;
+    text-align: center;
+    margin:auto;
+    margin-bottom:20px;
+    border-radius:25px;
+}
+
+.row-menhar{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin:10px;
+}
+.menhar-teks{
+    color: rgba(175, 18, 18, 0.582);
+    text-align: center;
+}
+.teks-menu{
+    text-align: center;
+    border:1px solid rgb(255, 5, 5);
+    width:700px;
+    height:100px;
+    margin:auto;
+}
+
+.row-fresh{
+    border: 1px solid rgb(255, 5, 5);
+    width:900px;
+    height:800px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.gambar-mix{
+    background-color: rgb(255, 5, 5);
+    width:250px;
+    height:300px;
+    text-align: center;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    margin:5px;
+}
+.row-logomix{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    background-color: rgb(255, 5, 5);
+    width:350px;
+    margin:auto;
+    border-radius:33px;
+}
+.row-footer{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    margin:10px;
+    background-color: rgb(255, 5, 5);
+
+}
